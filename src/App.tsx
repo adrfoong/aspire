@@ -2,6 +2,7 @@ import React, { InputHTMLAttributes, useEffect, useRef, useState } from "react";
 
 import { useCombobox } from "downshift";
 import EMAILS from "./email.json";
+// import { TagField as OldTagField } from "./history";
 
 import "./App.css";
 
@@ -34,6 +35,7 @@ function App() {
         }}
       >
         <h1>Email Input Component</h1>
+        {/* <OldTagField /> */}
         <div>
           <TagField
             options={emails}
